@@ -1,5 +1,3 @@
-// Write your JavaScript code here.
-// Remember to pay attention to page loading!
 window.onload = function(){
     const upButton = document.getElementById("up");
     const downButton = document.getElementById("down");
@@ -37,6 +35,7 @@ window.onload = function(){
         /* When the "Up", "Down", "Right", and "Left" buttons are clicked, the following should happen:
 The rocket image should move 10 px in the direction of the button that was clicked.
 If the "Up" or "Down" buttons were clicked, then the shuttle height should increase or decrease by 10,000 miles.*/
+
 let marginLeft = 0;
 let marginTop = 0;
     upButton.addEventListener("click", function (event) {
